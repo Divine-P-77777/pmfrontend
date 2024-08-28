@@ -1,0 +1,27 @@
+/* Add custom styles for the sliding menu and blur effect */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: relative;
+}
+
+.backdrop-blur-md {
+    backdrop-filter: blur(10px);
+}
+
+/* Ensure the menu content is centered */
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-content img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+}
